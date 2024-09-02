@@ -1,0 +1,54 @@
+body{
+    background-image: url(../Assets/darling-7838296_960_720.webp);
+    background-size: 100vw 100vh;
+}
+h1{
+    margin:auto 0px;
+    font-size: 4vw;
+    text-align: center;
+    font-family: monospace;
+}
+.container{
+    margin:auto;
+    width: 50vw;
+    max-width: 600px;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marker{
+    width: 35px;
+    height: 400px;
+    margin: auto 10px;
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+    min-width: 20px;
+}
+.sleeve{
+    background-color: rgba(225,225,225,.5);
+    height: 200px;
+    margin-top:50px;
+    border-top:10px double black;
+    border-bottom: 10px double black;
+    width: 100%;
+}
+.cyan{
+    background:linear-gradient(135deg,rgb(136, 180, 180),rgb(40, 100, 100));
+    box-shadow: 0 0 20px 0 rgb(137, 214, 233);
+}
+.skin{
+    background:linear-gradient(135deg,rgb(219, 226, 202),rgb(131, 134, 121));
+    box-shadow: 0 0 20px 0 rgb(182, 177, 155);
+}
+.brown{
+    background:linear-gradient(135deg,rgb(121, 101, 36),rgb(78, 46, 9));  
+    box-shadow: 0 0 20px 0 rgb(122, 86, 7);      
+}
+.ethereal{
+    background:linear-gradient(135deg,rgb(169, 152, 243),rgb(195, 36, 235));
+    box-shadow: 0 0 20px 0 rgb(190, 107, 177);
+}
